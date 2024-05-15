@@ -55,7 +55,7 @@ void heic_to_jpg(const std::string& heic_path, const std::string& jpg_path) {
         text_position_y = 2000;
     }
     
-    cv::putText(resized_image, "404", cv::Point(text_position_x, text_position_y), cv::FONT_HERSHEY_SIMPLEX, 1.0, cv::Scalar(128, 128, 128), 2);
+    cv::putText(resized_image, "watermark text", cv::Point(text_position_x, text_position_y), cv::FONT_HERSHEY_SIMPLEX, 1.0, cv::Scalar(128, 128, 128), 2);
     
     // Save the image as JPG
     cv::imwrite(jpg_path, resized_image);
@@ -67,8 +67,8 @@ void heic_to_jpg(const std::string& heic_path, const std::string& jpg_path) {
 }
 
 int main() {
-    std::string heic_path = "/Users/horus/Documents/heics/IMG_1456.HEIC";
-    std::string jpg_path = "/Users/horus/Documents/jpgs/IMG_1456.jpg";
+    std::string heic_path = "input: heic image path";
+    std::string jpg_path = "output: jpg image path";
 
     heic_to_jpg(heic_path, jpg_path);
 
