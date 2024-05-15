@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9ADE2B42BF45B6000EC90FD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9ADE2B32BF45B6000EC90FD /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A9ADE2AE2BF45B6000EC90FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A9ADE2B02BF45B6000EC90FD /* ImageConverter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ImageConverter; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9ADE2B32BF45B6000EC90FD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A9ADE2BA2BF4603000EC90FD /* ImageConverter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImageConverter.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9ADE2AD2BF45B6000EC90FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9ADE2A72BF45B6000EC90FD = {
+			isa = PBXGroup;
+			children = (
+				A9ADE2B22BF45B6000EC90FD /* ImageConverter */,
+				A9ADE2B12BF45B6000EC90FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9ADE2B12BF45B6000EC90FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADE2B02BF45B6000EC90FD /* ImageConverter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9ADE2B22BF45B6000EC90FD /* ImageConverter */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADE2BA2BF4603000EC90FD /* ImageConverter.entitlements */,
+				A9ADE2B32BF45B6000EC90FD /* main.cpp */,
+			);
+			path = ImageConverter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9ADE2AF2BF45B6000EC90FD /* ImageConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9ADE2B72BF45B6000EC90FD /* Build configuration list for PBXNativeTarget "ImageConverter" */;
+			buildPhases = (
+				A9ADE2AC2BF45B6000EC90FD /* Sources */,
+				A9ADE2AD2BF45B6000EC90FD /* Frameworks */,
+				A9ADE2AE2BF45B6000EC90FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageConverter;
+			productName = ImageConverter;
+			productReference = A9ADE2B02BF45B6000EC90FD /* ImageConverter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9ADE2A82BF45B6000EC90FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A9ADE2AF2BF45B6000EC90FD = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = A9ADE2AB2BF45B6000EC90FD /* Build configuration list for PBXProject "ImageConverter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9ADE2A72BF45B6000EC90FD;
+			productRefGroup = A9ADE2B12BF45B6000EC90FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9ADE2AF2BF45B6000EC90FD /* ImageConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9ADE2AC2BF45B6000EC90FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9ADE2B42BF45B6000EC90FD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A9ADE2B52BF45B6000EC90FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A9ADE2B62BF45B6000EC90FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A9ADE2B82BF45B6000EC90FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ImageConverter/ImageConverter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZJJVW89MW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					/usr/local/Cellar/opencv/4.9.0_8/include/opencv4,
+					/usr/local/Cellar/libheif/1.17.6_1/include,
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					/usr/local/Cellar/opencv/4.9.0_8/include/opencv4,
+					/usr/local/Cellar/libheif/1.17.6_1/include,
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					/usr/local/Cellar/libheif/1.17.6_1/lib/libheif.1.17.6.dylib,
+					/usr/local/Cellar/libheif/1.17.6_1/lib/libheif.1.dylib,
+					/usr/local/Cellar/libheif/1.17.6_1/lib/libheif.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_alphamat.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_alphamat.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_aruco.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_aruco.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_bgsegm.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_bgsegm.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_bioinspired.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_bioinspired.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_calib3d.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_calib3d.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_ccalib.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_ccalib.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_core.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_core.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_datasets.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_datasets.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_dnn_objdetect.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_dnn_objdetect.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_dnn_superres.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_dnn_superres.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_dnn.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_dnn.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_dpm.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_dpm.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_face.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_face.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_features2d.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_features2d.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_flann.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_flann.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_freetype.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_freetype.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_fuzzy.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_fuzzy.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_gapi.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_gapi.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_hfs.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_hfs.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_highgui.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_highgui.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_img_hash.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_img_hash.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_imgcodecs.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_imgcodecs.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_imgproc.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_imgproc.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_intensity_transform.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_intensity_transform.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_line_descriptor.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_line_descriptor.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_mcc.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_mcc.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_ml.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_ml.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_objdetect.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_objdetect.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_optflow.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_optflow.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_phase_unwrapping.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_phase_unwrapping.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_photo.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_photo.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_plot.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_plot.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_quality.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_quality.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_rapid.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_rapid.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_reg.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_reg.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_rgbd.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_rgbd.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_saliency.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_saliency.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_sfm.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_sfm.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_shape.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_shape.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_stereo.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_stereo.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_stitching.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_stitching.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_structured_light.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_structured_light.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_superres.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_superres.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_surface_matching.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_surface_matching.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_text.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_text.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_tracking.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_tracking.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_video.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_video.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_videoio.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_videoio.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_videostab.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_videostab.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_viz.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_viz.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_wechat_qrcode.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_wechat_qrcode.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_xfeatures2d.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_xfeatures2d.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_ximgproc.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_ximgproc.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_xobjdetect.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_xobjdetect.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_xphoto.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_xphoto.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9ADE2B92BF45B6000EC90FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ImageConverter/ImageConverter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZJJVW89MW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					/usr/local/Cellar/opencv/4.9.0_8/include/opencv4,
+					/usr/local/Cellar/libheif/1.17.6_1/include,
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = (
+					/usr/local/Cellar/opencv/4.9.0_8/include/opencv4,
+					/usr/local/Cellar/libheif/1.17.6_1/include,
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					/usr/local/Cellar/libheif/1.17.6_1/lib/libheif.1.17.6.dylib,
+					/usr/local/Cellar/libheif/1.17.6_1/lib/libheif.1.dylib,
+					/usr/local/Cellar/libheif/1.17.6_1/lib/libheif.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_alphamat.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_alphamat.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_aruco.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_aruco.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_bgsegm.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_bgsegm.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_bioinspired.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_bioinspired.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_calib3d.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_calib3d.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_ccalib.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_ccalib.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_core.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_core.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_datasets.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_datasets.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_dnn_objdetect.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_dnn_objdetect.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_dnn_superres.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_dnn_superres.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_dnn.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_dnn.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_dpm.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_dpm.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_face.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_face.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_features2d.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_features2d.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_flann.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_flann.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_freetype.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_freetype.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_fuzzy.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_fuzzy.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_gapi.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_gapi.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_hfs.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_hfs.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_highgui.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_highgui.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_img_hash.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_img_hash.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_imgcodecs.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_imgcodecs.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_imgproc.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_imgproc.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_intensity_transform.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_intensity_transform.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_line_descriptor.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_line_descriptor.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_mcc.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_mcc.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_ml.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_ml.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_objdetect.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_objdetect.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_optflow.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_optflow.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_phase_unwrapping.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_phase_unwrapping.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_photo.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_photo.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_plot.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_plot.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_quality.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_quality.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_rapid.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_rapid.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_reg.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_reg.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_rgbd.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_rgbd.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_saliency.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_saliency.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_sfm.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_sfm.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_shape.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_shape.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_stereo.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_stereo.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_stitching.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_stitching.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_structured_light.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_structured_light.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_superres.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_superres.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_surface_matching.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_surface_matching.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_text.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_text.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_tracking.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_tracking.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_video.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_video.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_videoio.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_videoio.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_videostab.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_videostab.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_viz.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_viz.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_wechat_qrcode.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_wechat_qrcode.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_xfeatures2d.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_xfeatures2d.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_ximgproc.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_ximgproc.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_xobjdetect.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_xobjdetect.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_xphoto.409.dylib,
+					/usr/local/Cellar/opencv/4.9.0_8/lib/libopencv_xphoto.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9ADE2AB2BF45B6000EC90FD /* Build configuration list for PBXProject "ImageConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9ADE2B52BF45B6000EC90FD /* Debug */,
+				A9ADE2B62BF45B6000EC90FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9ADE2B72BF45B6000EC90FD /* Build configuration list for PBXNativeTarget "ImageConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9ADE2B82BF45B6000EC90FD /* Debug */,
+				A9ADE2B92BF45B6000EC90FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9ADE2A82BF45B6000EC90FD /* Project object */;
+}
